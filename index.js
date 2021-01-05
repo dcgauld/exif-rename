@@ -26,6 +26,9 @@ function renameFile(filePath, args) {
     const parser = exifParser.create(fileBuffer);
     const exifData = parser.parse();
     const exifDate = exifData.tags.DateTimeOriginal;
+
+    if (!exifDate) return;
+
     const parsedPath = path.parse(filePath);
 
     const newPath = path.format({
