@@ -1,10 +1,20 @@
 {
   "name": "exif-rename",
-  "description": "A command to rename photos using their EXIF date.",
   "version": "0.1.0",
+  "description": "A command to batch rename photos to their EXIF date.",
+  "license": "MIT",
   "bin": {
     "exif-rename": "index.js"
   },
+  "repository": "dcgauld/exif-rename",
+  "keywords": [
+    "exif",
+    "image",
+    "images",
+    "photo",
+    "photos",
+    "rename"
+  ],
   "dependencies": {
     "exif-parser": "^0.1.12",
     "glob": "^7.1.6",
