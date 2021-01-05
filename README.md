@@ -1,6 +1,6 @@
 # exif-rename
 
-A command to batch rename photos to their EXIF date. Supports JPEG and TIFF file types.
+A command to batch rename photos to their EXIF dates. Supports JPEG and TIFF file types.
 
 ## Installation
 
@@ -16,4 +16,4 @@ exif-rename path/to/dir/*.jpg
 
 ### Options
 
-* `--format`: Formats the EXIF date to "yyyy-mm-dd hh:mm:ss", instead of Unix time.
+* `--format`: Format the EXIF dates to "yyyy-mm-dd hh:mm:ss", instead of Unix time.

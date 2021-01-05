@@ -1,7 +1,7 @@
 {
   "name": "exif-rename",
   "version": "0.1.0",
-  "description": "A command to batch rename photos to their EXIF date.",
+  "description": "A command to batch rename photos to their EXIF dates.",
   "license": "MIT",
   "bin": {
     "exif-rename": "index.js"
