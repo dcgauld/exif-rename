@@ -1,0 +1,13 @@
+{
+  "name": "exif-rename",
+  "description": "A command to rename photos using their EXIF date.",
+  "version": "0.1.0",
+  "bin": {
+    "exif-rename": "index.js"
+  },
+  "dependencies": {
+    "exif-parser": "^0.1.12",
+    "glob": "^7.1.6",
+    "minimist": "^1.2.5"
+  }
+}
